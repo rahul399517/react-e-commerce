@@ -1,0 +1,15 @@
+#mobileview {
+  display: none;
+}
+#featured {
+  display: grid;
+}
+
+@media (max-width: 1222px) and (min-width: 0px) {
+  #mobileview {
+    display: grid;
+  }
+  #featured {
+    display: none;
+  }
+}

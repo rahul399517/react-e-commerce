@@ -1,0 +1,18 @@
+#cardbox:hover {
+  box-shadow: 0 4px 8px 0 rgba(10, 10, 10, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#cardboximg:hover {
+  overflow: hidden;
+}
+#cardbutton {
+  background-color: white;
+  width: 100%;
+  border: 1px solid black;
+  color: black;
+}
+#cardbutton:hover {
+  width: 100%;
+  background-image: url(https://media.istockphoto.com/id/1248542684/vector/abstract-blurred-colorful-background.jpg?s=612x612&w=0&k=20&c=6aJX8oyUBsSBZFQUCJDP7KZ1y4vrf-wEH_SJsuq7B5I=);
+  color: white;
+}

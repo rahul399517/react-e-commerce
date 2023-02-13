@@ -1,0 +1,67 @@
+#barbuttonmobile {
+  margin-top: 5px;
+  margin-left: 5px;
+  background-color: white;
+  color: black;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 4px 8px 0 rgba(10, 10, 10, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#header1logomobile {
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(10, 10, 10, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#categorybuttonmobile {
+  display: inline;
+  box-shadow: 0 4px 8px 0 rgba(10, 10, 10, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+  border-radius: 20px;
+  width: 400px;
+  height: 60px;
+  overflow: hidden;
+}
+#categorybuttontmobileoption {
+  margin-top: 10px;
+  border-radius: 20px;
+  z-index: 2;
+}
+#categorybuttontmobileoption :hover {
+  margin-top: 10px;
+  color: white;
+  border-radius: 20px;
+  background-image: url(https://media.istockphoto.com/id/1248542684/vector/abstract-blurred-colorful-background.jpg?s=612x612&w=0&k=20&c=6aJX8oyUBsSBZFQUCJDP7KZ1y4vrf-wEH_SJsuq7B5I=);
+}
+#categorybuttonmobile:hover {
+  overflow: visible;
+}
+#fixedheadermobile {
+  position: fixed;
+  bottom: 40px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(10, 10, 10, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+
+  margin-left: 5px;
+  display: none;
+}
+#mobileheader1 {
+  display: none;
+}
+@media (max-width: 803px) and (min-width: 0px) {
+  #fixedheadermobile {
+    display: flex;
+    z-index: 4;
+  }
+  #mobileheader1 {
+    display: flex;
+  }
+}
